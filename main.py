@@ -22,7 +22,6 @@ if a > 6:
         b = b+list1[y]
 
 if a > 6 or a == 6:
-    print(b)
     sr = ''.join(random.sample(b, len(b)))
     print(sr)
 else:
